@@ -11,7 +11,7 @@ otras herramientas que soporten el formato `SKILL.md`.
 
 | Skill | Descripción | Versión |
 |---|---|---|
-| [`porygon-components`](skills/porygon-components/SKILL.md) | Uso correcto de los componentes de `@envisiongroup/porygon` (buttons, fields, forms, tables, i18n). | `1.0.1` |
+| [`porygon-components`](skills/porygon-components/SKILL.md) | Uso correcto de los componentes de `@envisiongroup/porygon` (buttons, fields, forms, tables, i18n). | `1.0.3` |
 
 ## Instalación
 
@@ -22,7 +22,7 @@ otras herramientas que soporten el formato `SKILL.md`.
 npx skills add envisionlatam/skills --skill porygon-components
 
 # fijar una versión concreta
-npx skills add envisionlatam/skills#porygon-components-v1.0.1 --skill porygon-components
+npx skills add envisionlatam/skills#porygon-components-v1.0.3 --skill porygon-components
 
 # a herramientas específicas
 npx skills add envisionlatam/skills --skill porygon-components -a claude-code -a codex -a opencode

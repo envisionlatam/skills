@@ -106,4 +106,4 @@ Porygon está diseñado para reaccionar a sus propios callbacks; evita sincroniz
 3. Decide controlado vs no-controlado (prefiere no-controlado + controller hook).
 4. Implementa los callbacks guardando el `rawValue`.
 5. Añade validación, i18n y estados async según corresponda.
-6. Verifica tipos: `cd packages/porygon && pnpm run typecheck` (si tocas la librería) o el typecheck de la app consumidora.
+6. Verifica tipos con el typecheck de **tu app consumidora** (p. ej. `tsc --noEmit` o el script `typecheck`/`build` de tu proyecto). Los `fields` tipados (`as const satisfies EFWFormFieldProps[]`) deben compilar sin casts ni errores.
